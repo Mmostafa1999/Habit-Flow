@@ -99,12 +99,6 @@ export default function DashboardPage() {
             });
     };
 
-    const handleAddHabit = () => {
-        // We don't need to implement anything here - the AddHabitButton component 
-        // will handle opening the form and adding the habit directly using the useHabits hook
-        console.log("Add new habit button clicked");
-    };
-
     const handleManageCategories = () => {
         // This would open a modal or navigate to categories management page
         console.log("Manage categories");
@@ -224,7 +218,6 @@ export default function DashboardPage() {
                                             habits={formattedHabits}
                                             selectedDate={selectedDate}
                                             onToggleComplete={handleToggleComplete}
-                                            onAddHabit={handleAddHabit}
                                         />
                                     </div>
                                 </div>

@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Habit } from "@/types/habit";
 import { CheckCircle2, MoreVertical, Pencil, Trash2, Archive } from "lucide-react";
 import { motion } from "framer-motion";
-import { toast } from "react-toastify";
 
 interface HabitCardProps {
     habit: Habit;

@@ -12,7 +12,7 @@ import {
   updateDoc,
   where,
 } from "firebase/firestore";
-import { db } from "./config";
+import { db } from "./firebase";
 
 // Collection reference
 const habitsCollection = collection(db, "habits");
